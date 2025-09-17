@@ -1,0 +1,50 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(135deg,#881212,rgb(218, 218, 174));
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    margin-bottom: 20px;
+    font-size: 33px;
+}
+.search-box{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.search-box input{
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+    font-size: 16px;
+}
+.search-box button{
+    padding: 10px 20px;
+    border: none;
+    background: #424a60cd;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0 8px 8px 0;
+    transition: background 0.3s;
+}
+.search-box button:hover{
+    background: #76644d
+}
+.resultado{
+    margin-top: 20px;
+    background: rgba(rgb(152, 72, 72), rgb(100, 239, 100), rgb(69, 69, 128), alpha);
+    border-radius: 12px;
+    padding: 20px;
+    text-align: left;
+}
